@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Test from "./test";
 import "primereact/resources/themes/saga-blue/theme.css"; // or other theme

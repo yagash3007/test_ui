@@ -39,12 +39,32 @@ function Test() {
           </div>
           <div className="flex gap-3 text-center">
             <Button
-              style={`p-3 text-grey-400  rounded-xl border border-grey-700 flex items-center px-[60px] `}
+              style={{
+                padding: "12px", // Tailwind's 'p-3'
+                color: "#cbd5e0", // Tailwind's 'text-grey-400'
+                borderRadius: "12px", // Tailwind's 'rounded-xl'
+                border: "1px solid #4a5568", // Tailwind's 'border border-grey-700'
+                display: "flex",
+                alignItems: "center",
+                paddingLeft: "60px", // Tailwind's 'px-[60px]'
+                paddingRight: "60px", // Tailwind's 'px-[60px]'
+              }}
               buttonname="Filter By"
               name="filter_alt"
             />
+
             <Button
-              style={`p-3 text-white bg-black rounded-xl border border-grey-700 flex items-center px-[60px] `}
+              style={{
+                padding: "12px", // Tailwind 'p-3'
+                color: "#ffffff", // Tailwind 'text-white'
+                backgroundColor: "#000000", // Tailwind 'bg-black'
+                borderRadius: "12px", // Tailwind 'rounded-xl'
+                border: "1px solid #4a5568", // Tailwind 'border border-grey-700'
+                display: "flex",
+                alignItems: "center",
+                paddingLeft: "60px", // Tailwind 'px-[60px]'
+                paddingRight: "60px", // Tailwind 'px-[60px]'
+              }}
               buttonname="Export"
               name="ios_share"
             />
@@ -98,13 +118,35 @@ function Test() {
                 <span>
                   <span className="flex gap-2">
                     <Button
-                      style="border border-grey-300 px-4 py-2 flex items-center rounded-[10px]"
-                      buttonname="Prime"
                       name="location_on"
+                      style={{
+                        border: "1px solid #d1d5db", // Equivalent to 'border border-grey-300'
+                        paddingLeft: "1rem", // Equivalent to 'px-4'
+                        paddingRight: "1rem", // Equivalent to 'px-4'
+                        paddingTop: "0.5rem", // Equivalent to 'py-2'
+                        paddingBottom: "0.5rem", // Equivalent to 'py-2'
+                        display: "flex", // Equivalent to 'flex'
+                        alignItems: "center", // Equivalent to 'items-center'
+                        borderRadius: "10px", // Equivalent to 'rounded-[10px]'
+                        // Color and background properties are not specified, so they default to 'transparent'
+                      }}
+                      buttonname="Prime"
                     />
+
                     <Button
                       name="location_on"
-                      style="border border-grey-300 px-4 py-2 flex items-center text-white bg-black rounded-[10px]"
+                      style={{
+                        border: "1px solid #d1d5db", // Equivalent to 'border border-grey-300'
+                        paddingLeft: "1rem", // Equivalent to 'px-4'
+                        paddingRight: "1rem", // Equivalent to 'px-4'
+                        paddingTop: "0.5rem", // Equivalent to 'py-2'
+                        paddingBottom: "0.5rem", // Equivalent to 'py-2'
+                        display: "flex", // Equivalent to 'flex'
+                        alignItems: "center", // Equivalent to 'items-center'
+                        color: "#ffffff", // Equivalent to 'text-white'
+                        backgroundColor: "#000000", // Equivalent to 'bg-black'
+                        borderRadius: "10px", // Equivalent to 'rounded-[10px]'
+                      }}
                       buttonname="See All"
                     />
                   </span>
@@ -157,7 +199,17 @@ function Test() {
                 </span>
                 <span className="">
                   <Button
-                    style={`px-2 py-1 text-grey-400  rounded-xl border border-grey-700 flex items-center px-[60px] `}
+                    style={{
+                      paddingLeft: "60px", // Overrides 'px-2'
+                      paddingRight: "60px", // Overrides 'px-2'
+                      paddingTop: "0.25rem", // Equivalent to 'py-1'
+                      paddingBottom: "0.25rem", // Equivalent to 'py-1'
+                      color: "#cbd5e0", // Equivalent to 'text-grey-400'
+                      borderRadius: "12px", // Equivalent to 'rounded-xl'
+                      border: "1px solid #4a5568", // Equivalent to 'border border-grey-700'
+                      display: "flex",
+                      alignItems: "center",
+                    }}
                     buttonname="All Time"
                     name="keyboard_arrow_down"
                   />

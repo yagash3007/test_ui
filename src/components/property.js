@@ -1,3 +1,5 @@
+import { Button } from "./Button";
+
 export const Property = ({ src }) => {
   return (
     <div className="bg-white rounded-lg shadow-md ">
@@ -16,12 +18,12 @@ export const Property = ({ src }) => {
         </h2>
         <div className="flex items-center justify-between text-gray-900">
           <span className="text-lg font-bold">$3000</span>
-          <a href="#" className="flex items-center text-grey-500">
+          <span className="flex items-center text-grey-500">
             Edit
             <span className="ml-1 material-symbols-outlined">
               arrow_forward_ios
             </span>
-          </a>
+          </span>
         </div>
       </div>
     </div>

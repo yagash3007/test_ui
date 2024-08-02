@@ -7,7 +7,7 @@ const ProfileTemplate = () => {
         <span>
           <img
             src="https://img.freepik.com/premium-photo/graphic-designer-digital-avatar-generative-ai_934475-9292.jpg"
-            alt="Profile Picture"
+            alt="Prof"
             class="w-12 h-12 rounded-full object-cover"
           />
         </span>

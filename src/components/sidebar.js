@@ -11,6 +11,7 @@ export const SideBar = () => {
           <img
             className="w-full h-12  object-obtain"
             src="https://gwcdata.ai/assets/Logo-ZfpyJ_J5.svg"
+            alt="sid"
           />
         </div>
         <nav className="mt-5">
