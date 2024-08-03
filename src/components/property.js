@@ -1,12 +1,10 @@
-import { Button } from "./Button";
-
 export const Property = ({ src }) => {
   return (
     <div className="bg-white rounded-lg shadow-md ">
       <img
         src={src}
         alt="Property"
-        className="object-cover w-full h-36 rounded-t-lg"
+        className="object-cover w-full rounded-t-lg h-36"
       />
       <div className="p-4">
         <h1 className="mb-2 text-xl font-semibold text-start">
